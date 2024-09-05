@@ -1,4 +1,6 @@
-solution = 854325
+from random import randint
+
+solution = randint(0, 1000000)
 answer = 0
 attempts = 0
 
