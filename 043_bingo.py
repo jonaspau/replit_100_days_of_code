@@ -1,7 +1,6 @@
 from random import randint
 from os import system
 
-bingo = []
 
 def main():
   while True:
