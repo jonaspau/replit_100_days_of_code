@@ -59,6 +59,7 @@ def getNumber(picked, card, numbers_left):
       if num in row:
         row[row.index(num)] = "X"
         numbers_left -= 1
+        return numbers_left
     return numbers_left
 
 if __name__=="__main__":
