@@ -1,0 +1,14 @@
+import json
+import requests
+
+results = requests.get("https://randomuser.me/api/")
+
+user = results.json()
+
+print(json.dumps(user, indent=2))
+
+name = f"""{user["results"][0]["name"]["first"]} {user["results"][0]["name"]["last"]}
+{user["results"][0]["location"]["country"]}
+"""
+
+print(name)
