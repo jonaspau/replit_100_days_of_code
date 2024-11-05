@@ -1,0 +1,3 @@
+How I Became a Python Programmer—and Fell Out of Love With the Machine, https://www.wired.com/story/how-i-became-a-python-programmer-and-distanced-myself-from-the-machine/
+JavaScript Runs the World—Maybe Even Literally, https://www.wired.com/story/javascript-runs-the-world-maybe-literally/
+The GitHub Black Market That Helps Coders Cheat the Popularity Contest, https://www.wired.com/story/github-stars-black-market-coders-cheat/
