@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+  background-color: #1e1e1e;
+  color: #c9d1d9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+  max-width: 1200px; 
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1{
+  color: #086788;
+}
+
+h2 {
+  color: #07a0c3;
+}
+
+a {
+  color: #07a0c3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF9D00;
+}
+
+hr {
+  border: 0.5px solid #30363d;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+input[type="number"] {
+  width: calc(100% - 24px);
+  max-width: 300px;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  padding: 8px 12px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-right: 10px;
+
+button {
+  background-color: #FF9D00;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FFCB47;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #30363d;
+  padding: 8px 12px;
+  text-align: left;
+}
+th {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+tr:nth-child(even) {
+  background-color: #1e1e1e;
+}
+tr:nth-child(odd) {
+  background-color: #242424;
+}
+tr:hover {
+  background-color: #333;
+}

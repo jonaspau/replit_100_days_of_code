@@ -1,0 +1,27 @@
+<h2>Top tracks for {{  year  }}</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Artist</th>
+      <th>Preview</th>
+      <th>Release Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for track in tracks %}
+    <tr>
+      <td>{{ track.name }}</td>
+      <td>{{ track.artist }}</td>
+      <td>
+        {% if track.preview_url %}
+          <audio controls><source src="{{ track.preview_url }}" type="audio/mpeg"></audio>
+        {% else %}
+          N/A
+        {% endif %}
+      </td>
+      <td>{{ track.release_date }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
