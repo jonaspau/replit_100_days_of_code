@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #424242; /* Slightly lighter dark background */
+  color: #fffffa; /* Light text color */
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  min-width: 1000px;
+  background-color: #080705; /* Dark background for the content */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #07a0c3; /* Accent color for headings */
+}
+
+p {
+  color: #fffffa; /* Light text color for paragraphs */
+}
+
+a {
+  color: #ffcb47; /* Highlighted color for links */
+}
+
+.btn {
+  background-color: #086788; /* Button background color */
+  color: #fffffa; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #07a0c3; /* Button hover effect */
+}

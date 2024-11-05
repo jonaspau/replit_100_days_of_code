@@ -1,0 +1,25 @@
+<h2>Watched Products</h2>
+{% if products %}
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>URL</th>
+            <th>Price Warning</th>
+            <th>Current Price</th> <!-- New Column -->
+        </tr>
+    </thead>
+    <tbody>
+        {% for product in products %}
+        <tr>
+            <td>{{ product.name }}</td>
+            <td><a href="{{ product.url }}" target="_blank">{{ product.url }}</a></td>
+            <td>{{ product.price_warning }}</td>
+            <td>{{ product.current_price }}</td> <!-- Display current price -->
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>No products are currently being watched.</p>
+{% endif %}
