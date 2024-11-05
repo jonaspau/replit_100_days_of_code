@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+  background-color: #1e1e1e;
+  color: #c9d1d9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+  color: #58a6ff;
+}
+
+a {
+  color: #9CDCFE; /* Softer link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF9D00; /* Different color on hover */
+}
+
+hr {
+  border: 0.5px solid #30363d;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #238636;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2ea043;
+}
