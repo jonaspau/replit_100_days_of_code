@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Replit Robot check</title>
+  <link href="static/style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body>
+  <div class="content">
+    <h1>The robot-test</h1>      
+    <form method="post" action="/processForm" class="form-layout">
+        <div class="form-group">
+            <label>Are you made out of metal:</label>
+            <div class="form-input">
+                <input type="radio" id="metal-yes" name="made_of_metal" value="yes" required>
+                <label for="metal-yes">Yes</label>
+                <input type="radio" id="metal-no" name="made_of_metal" value="no">
+                <label for="metal-no">No</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="infinity-plus-one">What is infinity + 1:</label>
+            <div class="form-input">
+                <input type="text" id="infinity-plus-one" name="infinity_plus_1" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="team-up">Who would you team up with:</label>
+            <div class="form-input">
+                <select name="team_up" id="team_up" required>
+                    <option value="humans">Sarah Connor</option>
+                    <option value="robots">Terminator</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit">I'm not a robot</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
